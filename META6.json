@@ -1,0 +1,22 @@
+{
+  "name" : "Units::Prefixes",
+  "source-url" : "https://github.com/holli-holzer/perl6-Units-Prefixes.git",
+  "support" : {
+    "source" : "https://github.com/holli-holzer/perl6-Units-Prefixes"
+  },
+  "perl" : "6.c",
+  "license" : "GPL-3.0",
+  "test-depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "Units::Prefixes" : "lib/Units/Prefixes.pm6"
+  },
+  "version" : "1.001001",
+  "meta-version" : "0",
+  "authors" : [
+    "Markus 'Holli' Holzer",
+    ""
+  ],
+  "description" : "Unit prefix operators from 10e-18 to 10e24"
+}
